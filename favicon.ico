@@ -1,0 +1,14 @@
+export default function Loading() {
+  return (
+    <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-5 bg-ivory">
+      <div className="relative h-16 w-16">
+        <div className="absolute inset-0 rounded-full border-2 border-nude-dark/40" />
+        <div className="absolute inset-0 rounded-full border-2 border-transparent border-t-gold animate-spin" />
+        <div className="absolute inset-3 rounded-full bg-blush-light" />
+      </div>
+      <p className="font-display italic text-ink-soft text-sm tracking-wide">
+        preparando sua experiência...
+      </p>
+    </div>
+  );
+}
