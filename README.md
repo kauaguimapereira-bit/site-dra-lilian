@@ -38,19 +38,6 @@ public/
     lilian-hero.jpeg  → foto da profissional (Hero e Sobre)
 ```
 
-## Antes de publicar
-
-1. **Fotos de antes/depois**: a seção `Resultados` usa placeholders elegantes.
-   Substitua os blocos em `src/components/BeforeAfter.tsx` por imagens reais
-   (com autorização das pacientes) usando `next/image`.
-2. **Domínio**: atualize a constante `siteUrl` em `src/app/layout.tsx` e os
-   arquivos `robots.ts` / `sitemap.ts` com o domínio definitivo.
-3. **Mapa**: o iframe do rodapé usa uma busca genérica por "Joinville, SC".
-   Troque pelo endereço exato do consultório para exibir o pino correto.
-4. **WhatsApp/Instagram**: já configurados em `src/lib/constants.ts`.
-5. **Favicon/OG image**: adicione `favicon.ico` em `src/app/` e opcionalmente
-   uma imagem 1200x630 dedicada para Open Graph.
-
 ## Paleta de design
 
 | Token       | Cor       |
